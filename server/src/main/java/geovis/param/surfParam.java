@@ -1,0 +1,183 @@
+package geovis.param;
+
+import io.swagger.annotations.ApiParam;
+import lombok.Data;
+
+import java.sql.Timestamp;
+
+
+/**
+ * 传参
+ */
+
+@Data
+public class surfParam {
+
+    private Integer year;
+    private Integer month;
+    private Integer day;
+    private Double latitude;
+    private Double longitude;
+    private String station;
+    private Integer hour;
+    private Integer unitid;
+    private Integer recievetime;
+    private Integer markr;
+    private Integer markw;
+    private Integer markx;
+    private Integer type;
+    private Double evelation;
+    private String onlyland;
+    private String tranhour;
+    private Double slp;
+    private Double lp;
+    private Integer wd;
+    private Double ws;
+    private Double at;
+    private Double td;
+    private Double max_at;
+    private Double min_at;
+    private Integer oq_slp;
+    private Integer oq_lp;
+    private Integer oq_wd;
+    private Integer oq_at;
+    private String w2;
+    private Integer vis;
+    private Integer ww;
+    private Integer w1;
+    private Integer n;
+    private Integer nh;
+    private Integer cl;
+    private Integer h;
+    private Integer cm;
+    private Integer ch;
+    private Integer dp;
+    private Double dp3;
+    private Double dp24;
+    private Double rain24;
+    private String area;
+    private Integer q_slp;
+    private Integer q_lp;
+    private Integer q_wd;
+    private Integer q_ws;
+    private Integer q_at;
+    private Integer q_td;
+    private Integer q_max_at;
+    private Integer q_min_at;
+    private Integer q_oq_slp;
+    private Integer q_oq_lp;
+    private Integer q_oq_wd;
+    private Integer q_oq_at;
+    private Integer q_w2;
+    private Integer q_vis;
+    private Integer q_ww;
+    private Integer q_w1;
+    private Integer q_n;
+    private Integer q_nh;
+    private Integer q_cl;
+    private Integer q_h;
+    private Integer q_cm;
+    private Integer q_ch;
+    private Integer q_dp;
+    private Integer q_dp3;
+    private Integer q_dp24;
+    private Integer q_rain24;
+    private String remark;
+    private String cccc;
+    private Integer stn_type;
+    private Double rh;
+    private Integer spl;
+    private Double a3;
+    private Integer dp_idx;
+    private Integer n1;
+    private Integer c1;
+    private Integer h1;
+    private Integer n2;
+    private Integer c2;
+    private Integer h2;
+    private Integer n3;
+    private Integer c3;
+    private Integer h3;
+    private Integer n4;
+    private Integer c4;
+    private Integer h4;
+    private Integer cbn;
+    private Integer cbt;
+    private Integer cbh;
+    private Double rain01;
+    private Double rain02;
+    private Double rain03;
+    private Double rain06;
+    private Double rain09;
+    private Double rain12;
+    private Double rain15;
+    private Double rain18;
+    private Double dt24;
+    private Double max_at12;
+    private Double min_at12;
+    private Double snowh;
+    private Double eva;
+    private Double alr;
+    private Double sunp;
+    private Integer gs;
+    private Integer sw1;
+    private Integer sw2;
+    private Integer sw3;
+    private Integer sw4;
+    private Integer sw5;
+    private Integer sw6;
+    private Double rain032;
+    private Double rain062;
+    private Double rain122;
+    private Double rain242;
+    private Integer q_rh;
+    private Integer q_spl;
+    private Integer q_a3;
+    private Integer q_dp03;
+    private Integer q_dp_idx;
+    private Integer q_n1;
+    private Integer q_c1;
+    private Integer q_h1;
+    private Integer q_n2;
+    private Integer q_c2;
+    private Integer q_h2;
+    private Integer q_n3;
+    private Integer q_c3;
+    private Integer q_h3;
+    private Integer q_n4;
+    private Integer q_c4;
+    private Integer q_h4;
+    private Integer q_cbn;
+    private Integer q_cbt;
+    private Integer q_cbh;
+    private Integer q_rain01;
+    private Integer q_rain02;
+    private Integer q_rain03;
+    private Integer q_rain06;
+    private Integer q_rain09;
+    private Integer q_rain12;
+    private Integer q_rain15;
+    private Integer q_rain18;
+    private Integer q_dt24;
+    private Integer q_max_at24;
+    private Integer q_min_at24;
+    private Integer q_max_at12;
+    private Integer q_min_at12;
+    private Integer q_snowh;
+    private Integer q_eva;
+    private Integer q_alr;
+    private Integer q_sunp;
+    private Integer q_gs;
+    private Integer q_sw1;
+    private Integer q_sw2;
+    private Integer q_sw3;
+    private Integer q_sw4;
+    private Integer q_sw5;
+    private Integer q_sw6;
+    private Timestamp stamp;
+
+
+
+
+
+}
